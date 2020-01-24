@@ -1,0 +1,14 @@
+versions:
+  - ver: 'v0.1'
+    repos:
+        - name: atomix-api
+          url: https://github.com/atomix/api
+          tagName: master
+        - name: atomix-kubernetes-controller
+          url: https://github.com/atomix/kubernetes-controller
+          tagName: master
+        - name: atomix-go-client
+          url: https://github.com/atomix/go-client
+          tagName: master
+
+LatestVersion: "v0.1"

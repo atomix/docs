@@ -1,0 +1,35 @@
+dev_addr: 0.0.0.0:8000
+docs_dir: content
+edit_uri: ""
+extra:
+  social:
+  - link: https://github.com/atomix
+    type: github
+extra_css:
+- styles/css/extra.css
+markdown_extensions:
+- attr_list
+- codehilite
+- admonition
+- footnotes
+nav: null
+plugins:
+- search
+- minify:
+    minify_html: true
+repo_name: onosproject
+repo_url: https://github.com/atomix
+site_author: Atomix
+site_description: Atomix
+site_name: Atomix
+site_url: ""
+theme:
+  custom_dir: theme
+  feature:
+    tabs: false
+  i18n:
+    next: Next
+    prev: Previous
+  include_sidebar: true
+  language: en
+  name: material

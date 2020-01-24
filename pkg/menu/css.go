@@ -22,7 +22,7 @@ import (
 	"github.com/pkg/errors"
 )
 
-const menuCSSFileName = "onos-menu.css"
+const menuCSSFileName = "atomix-menu.css"
 
 func writeCSSFile(manifestDocsDir string, menuContent Content) (string, error) {
 	if len(menuContent.CSS) == 0 {

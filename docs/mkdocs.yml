@@ -7,6 +7,9 @@ extra:
     type: github
 extra_css:
 - styles/css/extra.css
+- theme/css/onos-menu.css
+extra_javascript:
+- theme/js/onos-menu.js
 markdown_extensions:
 - attr_list
 - codehilite

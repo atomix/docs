@@ -40,6 +40,8 @@ jobs:
           edge: false
           github_token: ${GH_TOKEN}
           local_dir: docs/site
+          repo: atomix/atomix.github.io
+          target_branch: master
           skip_cleanup: true
           on:
             repo: atomix/docs

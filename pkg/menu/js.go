@@ -26,7 +26,7 @@ import (
 	"github.com/pkg/errors"
 )
 
-const menuJsFileName = "onos-menu.js"
+const menuJsFileName = "atomix-menu.js"
 
 const (
 	stateLatest          = "LATEST"

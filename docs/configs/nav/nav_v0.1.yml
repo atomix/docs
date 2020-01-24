@@ -1,6 +1,21 @@
 nav:
 - Atomix: README.md
 - Atomix API:
-    - Overview: atomix-api/docs/overview.md
+    - APIs :
+      - Atomix Log: atomix-api/docs/api/atomix_log.md
+      - Controller: atomix-api/docs/api/controller.md
+      - Counter: atomix-api/docs/api/counter.md
+      - Election: atomix-api/docs/api/election.md
+      - Headers: atomix-api/docs/api/headers.md
+      - Indexmap: atomix-api/docs/api/indexmap.md
+      - Leader: atomix-api/docs/api/leader.md
+      - List: atomix-api/docs/api/list.md
+      - Lock: atomix-api/docs/api/lock.md
+      - Map: atomix-api/docs/api/map.md
+      - Set: atomix-api/docs/api/set.md
+      - Value: atomix-api/docs/api/value.md
+      - Primitive: atomix-api/docs/api/primitive.md
+      - Protocols Log: atomix-api/docs/api/protocols_log.md
+      - Raft: atomix-api/docs/api/raft.md
 - Atomix Kubernetes Controller:
     - Overview: atomix-kubernetes-controller/docs/overview.md

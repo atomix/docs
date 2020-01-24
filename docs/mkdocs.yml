@@ -7,9 +7,9 @@ extra:
     type: github
 extra_css:
 - styles/css/extra.css
-- theme/css/onos-menu.css
+- theme/css/atomix-menu.css
 extra_javascript:
-- theme/js/onos-menu.js
+- theme/js/atomix-menu.js
 markdown_extensions:
 - attr_list
 - codehilite
@@ -20,7 +20,7 @@ plugins:
 - search
 - minify:
     minify_html: true
-repo_name: onosproject
+repo_name: Atomix
 repo_url: https://github.com/atomix
 site_author: Atomix
 site_description: Atomix

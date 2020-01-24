@@ -32,4 +32,5 @@ theme:
     prev: Previous
   include_sidebar: true
   language: en
+  logo: images/atomix-logo.png
   name: material

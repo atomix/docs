@@ -45,10 +45,7 @@ func (db *DocsBuilderConfig) build() {
 	} else {
 		docsDir = os.Args[2] + db.tagName + "/"
 		siteDir = common.SiteDirName + db.tagName + ""
-		utils.RunCommand("cp", "./content/README.md", docsDir)
-		utils.RunCommand("cp", "-r", "./content/images", docsDir)
-		utils.RunCommand("cp", "-r", "./content/developers", docsDir)
-		utils.RunCommand("cp", "-r", "./content/styles", docsDir)
+		utils.RunCommand("cp", "-r", "./content/.", docsDir)
 	}
 
 	manif["docs_dir"] = docsDir

@@ -37,3 +37,6 @@ theme:
   language: en
   logo: images/atomix-logo.png
   name: material
+  palette:
+    accent: teal
+    primary: teal

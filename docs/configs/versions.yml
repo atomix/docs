@@ -1,31 +1,31 @@
 versions:
   - ver: 'v0.1'
     repos:
-        - name: atomix-api
+        - name: api
           url: https://github.com/atomix/api
           tagName: master
-        - name: atomix-kubernetes-controller
+        - name: kubernetes-controller
           url: https://github.com/atomix/kubernetes-controller
           tagName: master
-        - name: atomix-go-client
+        - name: go-client
           url: https://github.com/atomix/go-client
           tagName: master
-        - name: atomix-java-client
+        - name: java-client
           url: https://github.com/atomix/java-client
           tagName: master
-        - name: atomix-go-framework
+        - name: go-framework
           url: https://github.com/atomix/go-framework
           tagName: master
-        - name: atomix-raft-replica
+        - name: raft-replica
           url: https://github.com/atomix/raft-replica
           tagName: master
-        - name: atomix-cli
+        - name: cli
           url: https://github.com/atomix/cli
           tagName: master
-        - name: atomix-kubernetes-tests
+        - name: kubernetes-tests
           url: https://github.com/atomix/kubernetes-tests
           tagName: master
-        - name: atomix-kubernetes-benchmarks
+        - name: kubernetes-benchmarks
           url: https://github.com/atomix/kubernetes-benchmarks
           tagName: master
 

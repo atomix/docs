@@ -28,8 +28,15 @@ docs-build: docs-clean docs-image
 
 docs-clean:
 	rm -rf $(SITE_DIR) 
-	rm -rf content/master
-	rm -rf content/atomix-*
+	rm -rf content/api
+	rm -rf content/cli
+	rm -rf content/go-client
+	rm -rf content/go-framework
+	rm -rf content/java-client
+	rm -rf content/kubernetes-benchmarks
+	rm -rf content/kubernetes-controller
+	rm -rf content/kubernetes-tests
+	rm -rf content/raft-replica
 	rm -rf content/v*
 	rm -rf content/theme
 	rm -rf content/experimental

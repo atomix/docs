@@ -56,7 +56,7 @@ func cloneRepo(path string, indexVersion int, indexRepo int, docsConfig utils.Do
 
 	err := gitRepo.Clone()
 	utils.CheckIfError(err)
-	err = utils.RemoveCode(path)
+	err = utils.CopyDocs(path)
 	utils.CheckIfError(err)
 }
 

@@ -8,7 +8,9 @@ extra:
 extra_css:
 - styles/css/extra.css
 - theme/css/atomix-menu.css
+- theme/css/atomix-menu.css
 extra_javascript:
+- theme/js/atomix-menu.js
 - theme/js/atomix-menu.js
 markdown_extensions:
 - attr_list

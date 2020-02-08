@@ -1,21 +1,62 @@
 nav:
-- Atomix: README.md
-- Atomix API:
-    - APIs :
-      - Atomix Log: atomix-api/docs/api/atomix_log.md
-      - Controller: atomix-api/docs/api/controller.md
-      - Counter: atomix-api/docs/api/counter.md
-      - Election: atomix-api/docs/api/election.md
-      - Headers: atomix-api/docs/api/headers.md
-      - Indexmap: atomix-api/docs/api/indexmap.md
-      - Leader: atomix-api/docs/api/leader.md
-      - List: atomix-api/docs/api/list.md
-      - Lock: atomix-api/docs/api/lock.md
-      - Map: atomix-api/docs/api/map.md
-      - Set: atomix-api/docs/api/set.md
-      - Value: atomix-api/docs/api/value.md
-      - Primitive: atomix-api/docs/api/primitive.md
-      - Protocols Log: atomix-api/docs/api/protocols_log.md
-      - Raft: atomix-api/docs/api/raft.md
-- Atomix Kubernetes Controller:
-    - Overview: atomix-kubernetes-controller/docs/overview.md
+- Introduction: README.md
+- User Guide:
+  - Overview: user-guide/overview.md
+  - Architecture: user-guide/architecture.md
+  - Deployment: user-guide/deployment.md
+  - Command Line Client (CLI): user-guide/cli.md
+  - Distributed Primitives: user-guide/primitives.md
+- CLI:
+  - Getting Started: cli/README.md
+  - Commands:
+    - Get: cli/commands/atomix_get.md
+    - Create: cli/commands/atomix_create.md
+    - Delete: cli/commands/atomix_delete.md
+    - Primitives:
+      - Counter: cli/commands/atomix_counter.md
+      - Leader Election: cli/commands/atomix_election.md
+      - List: cli/commands/atomix_list.md
+      - Lock: cli/commands/atomix_lock.md
+      - Log: cli/commands/atomix_log.md
+      - Map: cli/commands/atomix_map.md
+      - Set: cli/commands/atomix_set.md
+      - Value: cli/commands/atomix_value.md
+- Go Client:
+  - Getting Started: go-client/README.md
+  - Primitives:
+    - Counter: go-client/counter.md
+    - Leader Election: go-client/election.md
+    - Indexed Maps: go-client/indexed-map.md
+    - Leader Latch: go-client/leader-latch.md
+    - List: go-client/list.md
+    - Lock: go-client/lock.md
+    - Log: go-client/log.md
+    - Map: go-client/map.md
+    - Set: go-client/set.md
+    - Value: go-client/value.md
+- Java Client: java-client/README.md
+- API:
+  - Getting Started: api/README.md
+  - Controller: api/controller.md
+  - Primitives:
+    - Primitive: api/primitive.md
+    - Headers: api/headers.md
+    - Counter: api/counter.md
+    - Election: api/election.md
+    - Indexmap: api/indexmap.md
+    - Leader: api/leader.md
+    - List: api/list.md
+    - Lock: api/lock.md
+    - Map: api/map.md
+    - Set: api/set.md
+    - Value: api/value.md
+- Kubernetes Controller:
+  - Overview: kubernetes-controller/docs/overview.md
+- Client Libraries:
+  - Go Client: go-client/docs/...
+  - Java Client: java-client/docs/...
+- Protocols:
+  - Raft: raft-replica/docs/...
+  - NOPaxos: nopaxos-replica/docs/...
+- Integration tests: kubernetes-tests/docs/...
+- Benchmarks: kubernetes-benchmarks/docs/...

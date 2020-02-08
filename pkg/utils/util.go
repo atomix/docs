@@ -47,8 +47,8 @@ func CheckIfError(err error) {
 	os.Exit(1)
 }
 
-// RemoveCode remove all folders of a given dir except docs folder
-func RemoveCode(dir string) error {
+// CopyDocs remove all folders of a given dir except docs folder
+func CopyDocs(dir string) error {
 	d, err := os.Open(dir)
 	if err != nil {
 		return err
@@ -66,7 +66,22 @@ func RemoveCode(dir string) error {
 			}
 		}
 	}
-	return nil
+
+	d, err = os.Open(filepath.Join(dir, "docs"))
+	if err != nil {
+		return err
+	}
+	defer d.Close()
+	files, err := d.Readdir(-1)
+	if err != nil {
+		return err
+	}
+	for _, file := range files {
+		if err := os.Rename(filepath.Join(dir, "docs", file.Name()), filepath.Join(dir, file.Name())); err != nil {
+			return err
+		}
+	}
+	return os.Remove(filepath.Join(dir, "docs"))
 }
 
 // RunCommand run a linux command

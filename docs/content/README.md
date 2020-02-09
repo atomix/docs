@@ -1,4 +1,5 @@
 # Atomix Cloud
+<div style="text-align: justify"> 
 
 Atomix Cloud is a [Kubernetes] native platform for building scalable, fault-tolerant distributed systems.
 Developed at [ONF] as part of µONOS -- a next generation, cloud native software-defined network controller --
@@ -44,8 +45,11 @@ currently include:
 [Consul Raft]: https://github.com/hashicorp/raft
 [Dragonboat]: https://github.com/lni/dragonboat
 [etcd Raft]: https://github.com/etcd-io/etcd
+[Hashicorp Raft]: https://github.com/hashicorp/raft
 [Kubernetes]: https://kubernetes.io
 [Protobuf]: https://developers.google.com/protocol-buffers
 [gRPC]: https://grpc.io
 [API]: /api
 [controller]: /controller
+
+</div>

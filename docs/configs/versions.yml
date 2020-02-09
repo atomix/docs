@@ -4,7 +4,7 @@ versions:
         - name: api
           url: https://github.com/atomix/api
           tagName: master
-        - name: kubernetes-controller
+        - name: controller
           url: https://github.com/atomix/kubernetes-controller
           tagName: master
         - name: go-client
@@ -22,10 +22,10 @@ versions:
         - name: cli
           url: https://github.com/atomix/cli
           tagName: master
-        - name: kubernetes-tests
+        - name: tests
           url: https://github.com/atomix/kubernetes-tests
           tagName: master
-        - name: kubernetes-benchmarks
+        - name: benchmarks
           url: https://github.com/atomix/kubernetes-benchmarks
           tagName: master
 

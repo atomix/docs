@@ -1,3 +1,4 @@
+copyright: 2020 Open Networking Foundation
 dev_addr: 0.0.0.0:8000
 docs_dir: content
 edit_uri: ""
@@ -24,9 +25,9 @@ plugins:
     minify_html: true
 repo_name: Atomix
 repo_url: https://github.com/atomix
-site_author: Atomix
-site_description: Atomix
-site_name: Atomix
+site_author: Atomix Cloud
+site_description: Atomix Cloud
+site_name: Atomix Cloud
 site_url: ""
 theme:
   custom_dir: theme

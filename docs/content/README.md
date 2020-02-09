@@ -24,6 +24,7 @@ the form of both backend databases and client libraries.
 
 Backend protocols are generally implemented on state machine replication protocols using the
 [Atomix Go framework](/go-framework). Backend implementations currently include:
+
 * Raft (with implementations built on the [etcd][etcd Raft] and [Hashicorp][Hashicorp Raft] Raft implementations)
 * Multi-Raft (built on [Dragonboat] Raft implementation)
 * NOPaxos (custom Go implementation)
@@ -33,6 +34,7 @@ databases to be deployed to manage and persist distributed primitives.
 
 Atomix Cloud clients can be implemented in any Protobuf/gRPC supported language. Client libraries
 currently include:
+
 * [Go client](/go-client)
 * [Java client](/java-client)
 

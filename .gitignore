@@ -11,4 +11,10 @@ docs/site
 docs/content/atomix-*
 docs/content/v*
 docs/content/theme
+docs/content/go-*
+docs/content/api
+docs/content/cli
+docs/content/java-client
+docs/content/raft-*
+docs/content/controller
 docs/content/experimental

@@ -22,11 +22,5 @@ versions:
         - name: cli
           url: https://github.com/atomix/cli
           tagName: master
-        - name: tests
-          url: https://github.com/atomix/kubernetes-tests
-          tagName: master
-        - name: benchmarks
-          url: https://github.com/atomix/kubernetes-benchmarks
-          tagName: master
 
 LatestVersion: "v0.1"
